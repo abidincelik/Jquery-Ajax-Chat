@@ -108,64 +108,62 @@ Here's a list of the database tables, files and their functions to know where to
 
 **Users MySQL table**
 
-<![if !supportLists]>- <![endif]>**ID**: unique user ID number to identify them
+**ID**: unique user ID number to identify them
 
-<![if !supportLists]>- <![endif]>**username**: user's username
+**username**: user's username
 
-<![if !supportLists]>- <![endif]>**chat_status**: user's status. By default it's _offline_, when user logged in it's _online_
+**chat_status**: user's status. By default it's _offline_, when user logged in it's _online_
 
-<![if !supportLists]>- <![endif]>**offlineshift**: Need shift offline message sent time (if user reload page, or navigate other page in site, partners not have offline message. Offline message send only if current time is over offlineshift time)
+**offlineshift**: Need shift offline message sent time (if user reload page, or navigate other page in site, partners not have offline message. Offline message send only if current time is over offlineshift time)
 
 **Chat MySQL table**
 
-<![if !supportLists]>- <![endif]>**ID**: unique ID for messages
+**ID**: unique ID for messages
 
-<![if !supportLists]>- <![endif]>**from_id**: the ID of the user who sent the message
+**from_id**: the ID of the user who sent the message
 
-<![if !supportLists]>- <![endif]>**to_id**: the ID of the user who should receive the message
+**to_id**: the ID of the user who should receive the message
 
-<![if !supportLists]>- <![endif]>**message**: the content of message
+**message**: the content of message
 
-<![if !supportLists]>- <![endif]>**sent**: when the message has been sent (UNIX timestamp format)
+**sent**: when the message has been sent (UNIX timestamp format)
 
-<![if !supportLists]>- <![endif]>**recd**: _0_ if user haven't received the message yet, _1_ if user received it. This is how script knows if there are any unreceived messages from a previous chat session
+**recd**: _0_ if user haven't received the message yet, _1_ if user received it. This is how script knows if there are any unreceived messages from a previous chat session
 
-<![if !supportLists]>- <![endif]>**system_message**: it's used to display system messages. In this case the message appears with another color.
+**system_message**: it's used to display system messages. In this case the message appears with another color.
 
 **Typing  MySQL table**
 
-<![if !supportLists]>- <![endif]>**typing_from:** user ID who type
+**typing_from:** user ID who type
 
-<![if !supportLists]>- <![endif]>**typing_to**: Partner ID to have „typing” message
+**typing_to**: Partner ID to have „typing” message
 
-<![if !supportLists]>- <![endif]>**typing_ornot**: „typing_from user”  type or not ( 0 or 1)
-
-<![if !supportLists]>- <![endif]>
+**typing_ornot**: „typing_from user”  type or not ( 0 or 1)
 
 **Files**
 
-<![if !supportLists]>- <![endif]>**index.php, demo.php, demo2.php, demo3.php**: demo files
+**index.php, demo.php, demo2.php, demo3.php**: demo files
 
-<![if !supportLists]>- <![endif]>**config.inc.php**: MySQL and other settings. This is where you can add smileys.
+**config.inc.php**: MySQL and other settings. This is where you can add smileys.
 
-<![if !supportLists]>- <![endif]>**is_typing.php**: this PHP file is called via AJAX to check if our chatpartner is typing to us right now
+**is_typing.php**: this PHP file is called via AJAX to check if our chatpartner is typing to us right now
 
-<![if !supportLists]>- <![endif]>**load_message.php**: this PHP file is called via AJAX to load messages
+**load_message.php**: this PHP file is called via AJAX to load messages
 
-<![if !supportLists]>- <![endif]>**load_popup_message.php**: this PHP file is called via AJAX to check if current user has any unread messages
+**load_popup_message.php**: this PHP file is called via AJAX to check if current user has any unread messages
 
-<![if !supportLists]>- <![endif]>**own_id.inc.php**: this script pass current user's ID to Javascript
+**own_id.inc.php**: this script pass current user's ID to Javascript
 
-<![if !supportLists]>- <![endif]>**send_message.php**: this PHP file is called via AJAX to send messages
+**send_message.php**: this PHP file is called via AJAX to send messages
 
-<![if !supportLists]>- <![endif]>**is_typing****.php** this php file update user typing status (called via AJAX)
+**is_typing****.php** this php file update user typing status (called via AJAX)
 
-<![if !supportLists]>- <![endif]>**set_status.php**: this PHP file is called via AJAX to set online (on page load) or offline (on page leave) status. In v1.3 manage oflineshift time. Partners never have offline message if user only reload page or navigate other page in site.
+**set_status.php**: this PHP file is called via AJAX to set online (on page load) or offline (on page leave) status. In v1.3 manage oflineshift time. Partners never have offline message if user only reload page or navigate other page in site.
 
-<![if !supportLists]>- <![endif]>**chat.css**: this CSS stylesheet contains the chat window stylings
+**chat.css**: this CSS stylesheet contains the chat window stylings
 
-<![if !supportLists]>- <![endif]>**reset.css**: a general CSS to set all element's padding to 0
+**reset.css**: a general CSS to set all element's padding to 0
 
-<![if !supportLists]>- <![endif]>**jquery.min.js**: jQuery library for easy Javascript
+**jquery.min.js**: jQuery library for easy Javascript
 
-<![if !supportLists]>- <![endif]>**jquery.ajax_chat.js**: the chat core
+**jquery.ajax_chat.js**: the chat core
