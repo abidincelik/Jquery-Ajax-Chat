@@ -2,6 +2,8 @@
 
 [https://github.com/abidincelik/](https://github.com/abidincelik/)
 
+[![Donatecoins](http://donatecoins.org/btc/<bitcoin address>.svg)](http://donatecoins.org/btc/1GEP8kqApKzwUQ5Mzi7b6g4UToWADFKpNR)
+
 This documentation assumes that you are already familiar with HTML, CSS, PHP and MySQL basics!
 
 ## How to try the demo
