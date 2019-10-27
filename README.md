@@ -4,6 +4,8 @@
 
 [![Donatecoins](http://donatecoins.org/btc/1GEP8kqApKzwUQ5Mzi7b6g4UToWADFKpNR.svg)](http://donatecoins.org/btc/1GEP8kqApKzwUQ5Mzi7b6g4UToWADFKpNR)
 
+Donate Bitcoin Address : 1GEP8kqApKzwUQ5Mzi7b6g4UToWADFKpNR
+
 This documentation assumes that you are already familiar with HTML, CSS, PHP and MySQL basics!
 
 ## How to try the demo
