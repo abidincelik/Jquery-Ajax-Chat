@@ -3,10 +3,10 @@
 [https://github.com/abidincelik/](https://github.com/abidincelik/)
 
 [![Donatecoins](http://donatecoins.org/btc/bc1qj4kg6w6enmqah2vsdf5lrx8kvc65mw6va66674.svg)](http://donatecoins.org/btc/bc1qj4kg6w6enmqah2vsdf5lrx8kvc65mw6va66674)
-[![Donatecoins](http://donatecoins.org/eth/0x50c20DBdD6E4c0793Ceee0d1cf13B5c28c5b038B.svg)](http://donatecoins.org/eth/0x50c20DBdD6E4c0793Ceee0d1cf13B5c28c5b038B)
-[![Donatecoins](http://donatecoins.org/ltc/ltc1qqvj7w007kfpfscl07x2lkyjq59pw749se44cf5.svg)](http://donatecoins.org/ltc/ltc1qqvj7w007kfpfscl07x2lkyjq59pw749se44cf5)
 
 Donate Bitcoin Address : bc1qj4kg6w6enmqah2vsdf5lrx8kvc65mw6va66674
+Donate Etherium Address : 0x50c20DBdD6E4c0793Ceee0d1cf13B5c28c5b038B
+Donate Litecoin Address : ltc1qqvj7w007kfpfscl07x2lkyjq59pw749se44cf5
 
 This documentation assumes that you are already familiar with HTML, CSS, PHP and MySQL basics!
 
